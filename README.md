@@ -32,7 +32,6 @@ The following methods are available in the application:
     - magazine.articles: Returns an array of article instances associated with the magazine.
     - magazine.contributors: Returns an array of author instances who have written for this magazine.
     - Magazine.all: Returns an array of all Magazine instances.
-    - Magazine.find_by_name(name): Given a string of magazine name, this method returns the first magazine object that matches.
     - magazine.article_titles: Returns an array string of the titles of all articles written for that magazine.
     - magazine.contributing_authors: Returns an array of authors who have written more than 2 articles for the magazine.
 
