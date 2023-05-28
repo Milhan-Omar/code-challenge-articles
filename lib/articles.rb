@@ -12,7 +12,6 @@ class Article
   @@all
  end
  
-
  def to_s
   "Title: #{title}, Author: #{author.name}, Magazine: #{magazine.name}"
  end
