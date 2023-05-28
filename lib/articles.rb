@@ -11,9 +11,7 @@ class Article
  def self.all
   @@all
  end
- # def self.find_by_title(title)
- #  self.all.find { |article| article.title == title }
- # end
+ 
 
  def to_s
   "Title: #{title}, Author: #{author.name}, Magazine: #{magazine.name}"
