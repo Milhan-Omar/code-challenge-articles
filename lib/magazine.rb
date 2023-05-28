@@ -10,9 +10,7 @@ class Magazine
     @@all << self
   end
 
-  def self.all
-    @@all
-  end
+ 
 
   def self.find_by_name(name)
     self.all.find { |magazine| magazine.name == name }
