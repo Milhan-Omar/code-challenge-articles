@@ -10,9 +10,11 @@ class Author
  def self.all
   @@all
  end
+ 
  def articles
   Article.all.select { |article| article.author == self }
   end
+
  def magazines
   Article.map{ |articles|article.magazine}.uniq
  end
