@@ -21,7 +21,7 @@ class Magazine
   def article_titles
     Article.all.select { |article| article.magazine == self }.map { |article| article.title }
   end
-
+  # this method returns an array of authors who have written more than 2 articles for the magazine
   def contributing_authors
     Article.all.select { |article| article.magazine == self }.map { |article| article.author }.group_by { |author| author }.select { |author, articles| articles.size > 2 }.keys
   end
@@ -29,5 +29,5 @@ class Magazine
   def to_s
     @name
   end
-  
+
 end
