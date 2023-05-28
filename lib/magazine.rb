@@ -29,4 +29,5 @@ class Magazine
   def to_s
     @name
   end
+  
 end
