@@ -33,3 +33,7 @@ puts article1.magazine
 puts article4.magazine.topic_area
 
 puts article2.magazine.contributing_authors
+
+# Find an article by its title
+ puts Article.find_by_title("Fashion Trends for Spring")
+
